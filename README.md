@@ -15,12 +15,10 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
-- [@tw-in-js/typography](#tw-in-jstypography)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Contribute](#contribute)
-    - [Develop](#develop)
-  - [License](#license)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contribute](#contribute)
+- [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 <!-- prettier-ignore-end -->

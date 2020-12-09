@@ -1,6 +1,6 @@
 {
   "name": "@tw-in-js/typography",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A Tailwind JS plugin for automatically styling plain HTML content with beautiful typographic defaults.",
   "keywords": [
     "tailwind",

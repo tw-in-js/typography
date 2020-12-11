@@ -1,5 +1,14 @@
 {
   "$schema": "http://json.schemastore.org/tsconfig",
   "extends": "./node_modules/@carv/tsconfig/preset.json",
-  "include": ["src/**/*"]
+  "include": ["src/**/*", "example/**/*"],
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact",
+    "plugins": [
+      {
+        "name": "@tw-in-js/typescript-plugin"
+      }
+    ]
+  }
 }

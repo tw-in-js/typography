@@ -1,4 +1,4 @@
-import type { Context, CSSRules } from '@tw-in-js/core'
+import type { Context, CSSRules } from 'twind'
 
 const round = (number: number): string =>
   number

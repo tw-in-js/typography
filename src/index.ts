@@ -1,10 +1,10 @@
-import type { CSSRules, Plugin, ThemeSection } from '@tw-in-js/core'
+import type { CSSRules, Plugin, ThemeSection } from 'twind'
 
 export interface Options {
   className?: string
 }
 
-declare module '@tw-in-js/core' {
+declare module 'twind' {
   interface Theme {
     typography?: ThemeSection<{ css?: CSSRules }>
   }

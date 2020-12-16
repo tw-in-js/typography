@@ -4,7 +4,7 @@
 import { h, render } from 'preact'
 import 'preact/devtools'
 
-import { setup } from '@tw-in-js/core'
+import { setup } from 'twind'
 
 // eslint-disable-next-line unicorn/import-index
 import typography from '../src/index'

@@ -2,7 +2,7 @@ import type { JSX } from 'preact'
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { h } from 'preact'
-import { tw } from '@tw-in-js/core'
+import { tw } from 'twind'
 
 export default function App(): JSX.Element {
   return (

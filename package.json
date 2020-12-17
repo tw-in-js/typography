@@ -19,7 +19,7 @@
   ],
   "main": "src/index.ts",
   "scripts": {
-    "build": "./scripts/esbundle.js",
+    "build": "distilt",
     "format": "prettier --write --ignore-path .gitignore .",
     "release": "npx np --contents dist",
     "start": "snowpack dev",
@@ -37,6 +37,7 @@
     "@size-limit/file": "^4.9.1",
     "@twind/typescript-plugin": "^0.1.0",
     "@types/snowpack-env": "^2.3.2",
+    "distilt": "^0.2.1",
     "esbuild": "^0.8.23",
     "execa": "^5.0.0",
     "preact": "^10.5.7",
@@ -52,7 +53,7 @@
   },
   "size-limit": [
     {
-      "path": "./dist/module/twind_typography.js",
+      "path": "./dist/browser/twind_typography.js",
       "limit": "3 KB"
     }
   ]

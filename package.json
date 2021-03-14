@@ -1,6 +1,6 @@
 {
   "name": "@twind/typography",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Tailwind JS plugin for automatically styling plain HTML content with beautiful typographic defaults.",
   "//": "mark as private to prevent accidental publish - use 'yarn release'",
   "private": true,
